@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // file import
 const authRouter = require('./Route/auth.js');
 
-const DB = "mongodb+srv://kevin:kevin1997@cluster0.1ptvazv.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb://localhost:27017/amazon_clone";
 
 
 const app = express ();
